@@ -1,6 +1,10 @@
-# btn
+# woke-btn
 
 <link rel="stylesheet" href="./index.css">
+
+绝大部分项目中都有按钮。 下载本项目 https://github.com/wokejs/btn.git 。根据设计稿修改样式避免每个项目都写一套按钮的基础代码。
+
+> 本项目已经解决了按钮的一些CSS兼容问题，并基于 woke 命名规范防止样式冲突和增加可维护性
 
 ## a/span/button
 ````html
