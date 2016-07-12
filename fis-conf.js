@@ -1,7 +1,8 @@
+fis.hook('relative')
 var markrun = require('markrun')
 fis.match('README.md', {
     rExt: '.html',
-    release: 'demo.html',
+    release: 'index.html',
     parser: function (content) {
         var html = markrun(content, {
             template: [
@@ -11,7 +12,7 @@ fis.match('README.md', {
                 '<meta charset="UTF-8">',
                 '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
                 '<meta http-equiv="X-UA-Compatible" content="ie=edge">',
-                '<title>Document</title>',
+                '<title><%-  title %></title>',
             '</head>',
             '<body>',
             '<%- content %>',

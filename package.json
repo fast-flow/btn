@@ -24,6 +24,7 @@
   "homepage": "https://github.com/wokejs/btn#readme",
   "devDependencies": {
     "fis-parser-less-2.x": "0.1.4",
-    "markrun": "0.0.1"
+    "markrun": "0.0.1",
+    "fis3-hook-relative": "^1.0.9"
   }
 }

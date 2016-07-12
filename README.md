@@ -1,6 +1,6 @@
 # woke-btn
 
-<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./index.less">
 
 绝大部分项目中都有按钮。 下载本项目 https://github.com/wokejs/btn.git 。根据设计稿修改样式避免每个项目都写一套按钮的基础代码。
 
