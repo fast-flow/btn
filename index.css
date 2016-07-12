@@ -1,4 +1,5 @@
 .m-btn {
+  position: relative;
   display: inline-block;
   *display: inline;
   text-align: center;
@@ -161,4 +162,26 @@ html .m-btn--14 {
   font-size: 28px;
   height: 48px;
   line-height: 48px;
+}
+.m-btn-icon {
+  margin-right: .2em;
+}
+html .m-btn-icon--before {
+  margin-right: 0;
+  margin-left: .2em;
+}
+html .m-btn--loading:before {
+  border-radius: 3px;
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
 }

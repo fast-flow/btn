@@ -1,4 +1,7 @@
 fis.hook('relative')
+fis.match('**', {
+  relative: true
+})
 var markrun = require('markrun')
 fis.match('README.md', {
     rExt: '.html',

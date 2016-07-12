@@ -98,3 +98,37 @@
 <button type="button" class="m-btn m-btn--13" >m-btn--13</button>
 <button type="button" class="m-btn m-btn--14" >m-btn--14</button>
 ````
+
+### icon
+
+> .m-btn-icon 默认是第一个子元素
+
+````html
+<span class="m-btn m-btn--7"><span class="m-btn-icon">&hearts;</span>default</span>
+<span class="m-btn m-btn--7 m-btn--info"><span class="m-btn-icon">&hearts;</span>default</span>
+````
+> 如果 .m-btn-icon 是最后一个子元素应该加上 m-btn-icon--before
+
+````html
+<span class="m-btn m-btn--7">before<span class="m-btn-icon m-btn-icon--before">×</span></span>
+<span class="m-btn m-btn--7 m-btn--danger">before<span class="m-btn-icon m-btn-icon--before">×</span></span>
+````
+
+### loading
+
+````html
+<span class="m-btn m-btn--loading m-btn--1 m-btn--primary" >m-btn--1</span>
+<span class="m-btn m-btn--loading m-btn--2 m-btn--success" >m-btn--2</span>
+<span class="m-btn m-btn--loading m-btn--3 m-btn--info" >m-btn--3</span>
+<span class="m-btn m-btn--loading m-btn--4 m-btn--warning" >m-btn--4</span>
+<span class="m-btn m-btn--loading m-btn--5 m-btn--danger" >m-btn--5</span>
+<span class="m-btn m-btn--loading m-btn--6 m-btn--primary2" >m-btn--6</span>
+<span class="m-btn m-btn--loading m-btn--7 m-btn--success2" >m-btn--7</span>
+<span class="m-btn m-btn--loading m-btn--8 m-btn--info2" >m-btn--8</span>
+<span class="m-btn m-btn--loading m-btn--9 m-btn--warning2" >m-btn--9</span>
+<span class="m-btn m-btn--loading m-btn--10 m-btn--danger2" >m-btn--10</span>
+<span class="m-btn m-btn--loading m-btn--11 m-btn--primary" >m-btn--11</span>
+<span class="m-btn m-btn--loading m-btn--12 m-btn--success" >m-btn--12</span>
+<span class="m-btn m-btn--loading m-btn--13 m-btn--info" >m-btn--13</span>
+<span class="m-btn m-btn--loading m-btn--14 m-btn--warning" >m-btn--14</span>
+````
