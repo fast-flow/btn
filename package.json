@@ -1,5 +1,5 @@
 {
-  "name": "woke-btn",
+  "name": "fast-btn",
   "version": "0.0.1",
   "description": "可复用在任何项目的按钮样式",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wokejs/btn.git"
+    "url": "git+https://github.com/fast-flow/btn.git"
   },
   "keywords": [
     "btn",
@@ -19,9 +19,9 @@
   "author": "nimojs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wokejs/btn/issues"
+    "url": "https://github.com/fast-flow/btn/issues"
   },
-  "homepage": "https://github.com/wokejs/btn#readme",
+  "homepage": "https://github.com/fast-flow/btn#readme",
   "devDependencies": {
     "fis-parser-less-2.x": "0.1.4",
     "markrun": "0.0.1",

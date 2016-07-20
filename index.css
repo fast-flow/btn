@@ -40,12 +40,14 @@ html .m-btn--disabled {
 html .m-btn--link {
   color: #337AB0;
   border-color: transparent;
+  background-color: transparent;
 }
 html .m-btn--link:hover {
   text-decoration: underline;
 }
 html .m-btn--text {
   border-color: transparent;
+  background-color: transparent;
 }
 html .m-btn--primary {
   color: #fff;
@@ -164,6 +166,7 @@ html .m-btn--14 {
 }
 .m-btn-icon {
   margin-right: .2em;
+  vertical-align: middle;
 }
 html .m-btn-icon--before {
   margin-right: 0;
