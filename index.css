@@ -185,3 +185,7 @@ html .m-btn--loading:before {
   background-repeat: no-repeat;
   background-position: center;
 }
+html .m-btn--fill {
+    display: block;
+    width:100%;
+}
