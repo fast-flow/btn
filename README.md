@@ -106,17 +106,27 @@
 
 ### icon
 
+````html
+<a href="http://iconfont.cn/help/detail?spm=a313x.7781069.1998910419.13&helptype=code">使用 iconfont 作为图标</a>
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_yxtllcw0enpfd2t9.css">
+````
+
 > .m-btn-icon 默认是第一个子元素
 
 ````html
-<span class="m-btn m-btn--7"><span class="m-btn-icon">&hearts;</span>default</span>
-<span class="m-btn m-btn--7 m-btn--info"><span class="m-btn-icon">&hearts;</span>default</span>
+<span class="m-btn m-btn--7">
+    <span class="m-btn-icon"><span class="iconfont icon-roundcheckfill"></span></span>default
+</span>
 ````
 > 如果 .m-btn-icon 是最后一个子元素应该加上 m-btn-icon--before
 
 ````html
-<span class="m-btn m-btn--7">before<span class="m-btn-icon m-btn-icon--before">×</span></span>
-<span class="m-btn m-btn--7 m-btn--danger">before<span class="m-btn-icon m-btn-icon--before">×</span></span>
+<span class="m-btn m-btn--7">
+    before
+    <span class="m-btn-icon m-btn-icon--before">
+        <span class="iconfont icon-roundclose"></span>
+    </span>
+</span>
 ````
 
 ### loading
