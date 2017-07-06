@@ -7,6 +7,7 @@
 > 本项目已经解决了按钮的一些CSS兼容问题，并基于 fast-flow 命名规范防止样式冲突和增加可维护性
 
 ## a/span/button
+
 ````html
 <a href="#" class="m-btn">a.m-btn</a>
 <span href="#" class="m-btn">span.m-btn</span>
@@ -44,6 +45,7 @@
 ## size
 
 ### span
+
 ````html
 <span class="m-btn" >default</span>
 <span class="m-btn m-btn--1 m-btn--primary" >m-btn--1</span>
@@ -63,6 +65,7 @@
 ````
 
 ### a
+
 ````html
 <a href="#" class="m-btn" >default</a>
 <a href="#" class="m-btn m-btn--1" >m-btn--1</a>
@@ -80,7 +83,9 @@
 <a href="#" class="m-btn m-btn--13" >m-btn--13</a>
 <a href="#" class="m-btn m-btn--14" >m-btn--14</a>
 ````
+
 ### button
+
 ````html
 <button type="button" class="m-btn" >default</button>
 <button type="button" class="m-btn m-btn--1" >m-btn--1</button>
