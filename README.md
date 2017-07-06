@@ -17,8 +17,9 @@
 ## disabled
 
 ````html
-<span class="m-btn m-btn--disabled" disabled="disabled">m-btn--disabled</span>
+<span class="m-btn m-btn--disabled">m-btn--disabled</span>
 ````
+
 
 ## color
 
