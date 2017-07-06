@@ -103,6 +103,18 @@
 <button type="button" class="m-btn m-btn--12" >m-btn--12</button>
 <button type="button" class="m-btn m-btn--13" >m-btn--13</button>
 <button type="button" class="m-btn m-btn--14" >m-btn--14</button>
+<button type="button" class="m-btn m-btn--16" >m-btn--16</button>
+<button type="button" class="m-btn m-btn--17" >m-btn--17</button>
+<button type="button" class="m-btn m-btn--18" >m-btn--18</button>
+<button type="button" class="m-btn m-btn--19" >m-btn--19</button>
+<button type="button" class="m-btn m-btn--20" >m-btn--20</button>
+<button type="button" class="m-btn m-btn--21" >m-btn--21</button>
+<button type="button" class="m-btn m-btn--22" >m-btn--22</button>
+<button type="button" class="m-btn m-btn--23" >m-btn--23</button>
+<button type="button" class="m-btn m-btn--24" >m-btn--24</button>
+<button type="button" class="m-btn m-btn--25" >m-btn--25</button>
+<button type="button" class="m-btn m-btn--26" >m-btn--26</button>
+<button type="button" class="m-btn m-btn--27" >m-btn--27</button>
 ````
 
 ### icon
